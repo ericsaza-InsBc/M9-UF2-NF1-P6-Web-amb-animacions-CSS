@@ -194,6 +194,24 @@ ul.contact li a.icon-rss:before {
   padding: 0em 1.5em;
 }
 
+.boxA div a img,
+.boxB div a img,
+.boxC div a img {
+  transition: 2s;
+  -moz-transition: 2s;
+  -o-transition: 2s;
+  -webkit-transition: 2s;
+}
+
+.boxA div a img:hover,
+.boxB div a img:hover,
+.boxC div a img:hover {
+  transform: rotate(-360deg);
+  -webkit-transform: rotate(-360deg); /*Chrome i Safari*/
+  -moz-transform: rotate(-360deg); /*Firefox*/
+  -o-transform: rotate(-360deg); /*Opera*/
+}
+
 .boxA,
 .boxB {
   float: left;
@@ -285,17 +303,16 @@ ul.contact li a.icon-rss:before {
 /*********************************************************************************/
 
 #imgCotxe {
-  
   animation: 5s ease-in 1s infinite reverse both running movimentCotxe;
 }
 
 @keyframes movimentCotxe {
-	0% {
-        transform: translate(200vh, 450px);
-    }
-    100% {
-        transform: translate(-50vh, 400px);
-    }
+  0% {
+    transform: translate(200vh, 450px);
+  }
+  100% {
+    transform: translate(-50vh, 400px);
+  }
 }
 
 #banner {
