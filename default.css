@@ -166,6 +166,10 @@ ul.contact li a.icon-rss:before {
   color: #fff;
 }
 
+.button:hover {
+	background-color: darkgreen;
+}
+
 .button:before {
 }
 
