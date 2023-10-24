@@ -218,7 +218,7 @@ ul.contact li a.icon-rss:before {
 
 .boxA div a:hover + span,
 .boxB div a:hover + span,
-.boxC div a img:hover + span {
+.boxC div a:hover + span {
   color: red;
 }
 
