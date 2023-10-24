@@ -212,6 +212,12 @@ ul.contact li a.icon-rss:before {
   -o-transform: rotate(-360deg); /*Opera*/
 }
 
+.boxA div a:hover + span,
+.boxB div a:hover + span,
+.boxC div a img:hover + span {
+  color: red;
+}
+
 .boxA,
 .boxB {
   float: left;
