@@ -433,4 +433,6 @@ ul.contact li a.icon-rss:before {
   font-weight: 600;
   font-size: 1.2em;
   color: #fff;
+  position: relative;
+  z-index: 999;
 }
